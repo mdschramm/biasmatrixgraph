@@ -1,0 +1,77 @@
+#blurbs {
+    height: 60px;
+    border-top: 1px solid #e2e2e2;
+    padding-top: 20px;
+}
+
+path {
+    stroke: #e2e2e2;
+    stroke-width: 0.9;
+    fill: none;
+}
+
+path.current, path.highlight.current {
+    stroke: #000;
+    stroke-width: 1.7;
+}
+
+.CancerSeq.highlight { stroke: #895881; }
+.DARPA.highlight { stroke: #ED7C31; }
+.CommonMind.highlight { stroke: #82A5C0; }
+.class3.highlight { stroke: #6E9E75; }
+.class4.highlight { stroke: #00BBD6; }
+.class5.highlight { stroke: #e25f82; }
+.class6.highlight { stroke: #be1932; }
+.highlight { stroke-width: 1px; }
+
+
+#filters {
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+#filters a {
+        color: #000;
+        font-size: 12px;
+        padding: 5px;
+        background: #e2e2e2;
+        cursor: pointer;
+        margin-right: 3px;
+}
+#filters a:last-child {
+    margin-right: 0;
+}
+
+#filters a.CancerSeq { background: #895881; color: #fff; }
+#filters a.DARPA { background: #ED7C31; color: #fff; }
+#filters a.CommonMind { background: #82A5C0; color: #fff; }
+#filters a.class3 { background: #6E9E75; color: #fff; }
+#filters a.class4 { background: #00BBD6; color: #fff; }
+#filters a.class5 { background: #e25f82; color: #fff; }
+#filters a.class6 { background: #be1932; color: #fff; }
+
+
+.x.axis line {
+    stroke: black;
+}
+
+.x.axis .minor {
+    stroke-opacity: .5;
+}
+
+.x.axis path {
+    display:none;
+}
+
+.y.axis line, .y.axis path {
+    fill: none;
+    stroke: #000l
+}
+
+text {
+    font-family: Arial;
+    font-size: 9pt;
+}
+
+ol {
+    list-style-type: none;
+}
